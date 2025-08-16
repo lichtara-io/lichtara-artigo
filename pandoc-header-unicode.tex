@@ -1,0 +1,10 @@
+% pandoc LaTeX header: disable hyphenation and use a Unicode-capable main font
+\usepackage[none]{hyphenat}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+\raggedright
+
+% Use Arial Unicode (wide glyph coverage) from system fonts
+\usepackage{fontspec}
+\setmainfont[Path=/Library/Fonts/,Scale=1]{Arial Unicode.ttf}
