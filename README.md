@@ -1,2 +1,1 @@
-# lichtara-artigo
-
+# etica
